@@ -6,9 +6,9 @@ Create a program that creates a drawing that can change.
 
 2. Review this weeks class notes. You may also want to read more on using variables and conditional statements online.
 
-4. Edit sketch.js to create a program that generates a drawing that changes every time the program is run. Be sure to use variables, expressions, and conditional statements liberally. Try to make a program that creates drawings with wide variation.
+4. Edit sketch.js to create a program that generates a drawing that changes every time the program is run. Thoroughly explore using variables, expressions, and conditional statements. Try to make a program that creates drawings with wide variation.
 
-5. Take a **two** screen-grabs of your program's output and add them to your `README.md`.
+5. Take **two** screen-grabs of your program's output and add them to your `README.md`.
 
 6. Sync your project in Github Desktop to publish your work to Github.
 
