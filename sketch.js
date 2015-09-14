@@ -6,6 +6,8 @@ function setup() {
 }
 
 function draw() {
+	var magicShow = random(1);
+	// draw background
 	// clear the background
 	background(62, 37, 145);
 
@@ -15,7 +17,7 @@ function draw() {
 	// draw the ellipse
 	ellipse(320, 390, 700, 200);
 	// draw curtain
-	fill(171, 26, 31);
+	fill(88, 30, 45);
 	ellipse(0, 0, 180, 400);
 	ellipse(640, 0, 180, 400);
 	rect(-50, 210, 100, 140, 80, 80, 5, 5);
@@ -103,13 +105,74 @@ function draw() {
 	fill(0, 0, 0);
 	ellipse(400, 240, 150, 50);
 	ellipse(399, 330, 120, 30);
-	// innwe ellipse
+
 	fill(random(255), random(255), random(255));
 	ellipse(400, 233, 80, 20);
-	// noLoop();
 
 
+	if (magicShow < 0.5) {
+		// rabbit
+	fill(251, 196, 221);
+	ellipse(400, 210, 60, 60);
+	ellipse(370, 235, 23, 23);
+	ellipse(430, 235, 23, 23);
+	var x = random(0, 10);
+	ellipse(380, 170 + x, 20, 60);
+	ellipse(420, 170 + x, 20, 60);
+	fill(251, 119, 221);
+	ellipse(380, 170 + x, 10, 30);
+	ellipse(420, 170 + x, 10, 30);
+	fill(255, 255, 255);
+	ellipse(400, 220, 37, 25);
+	fill(251, 119, 221);
+	ellipse(400, 210, 10, 10);
+	fill(0, 0, 0);
+	ellipse(390, 200, 8, 8);
+	ellipse(410, 200, 8, 8);
 
+	fill(0, 0, 0);
+	ellipse(195, 140, 40, 40);
+	ellipse(245, 140, 40, 40);
+	fill(255, 255, 255);
+	ellipse(195, 140, 30, 30);
+	ellipse(245, 140, 30, 30);
+	fill(0, 0, 0);
+	ellipse(200, 145, 10, 10);
+	ellipse(250, 145, 10, 10);
+	rect(210, 135, 17, 5);
+	fill(209, 95, 111);
+	ellipse(220, 172, 20, 20);
+
+
+} else {
+		// balloon
+		var y = random(-5, 5);
+	fill(87, 185, 181);
+	ellipse(365 + y, 175, 60, 60);
+	triangle(367, 205, 372, 215, 362, 215);
+	fill(236, 111, 197);
+	ellipse(450 + y, 155, 50, 50);
+	triangle(450, 180, 445, 190, 455, 190);
+	fill(253, 197, 30);
+	ellipse(410 + y, 90, 55, 55);
+	triangle(410, 113, 407, 123, 413, 123);
+
+	fill(209, 95, 111);
+	ellipse(220, 165, 30, 30);
+	fill(251, 225, 198);
+	rect(200, 145, 40, 20);
+	fill(0, 0, 0);
+	ellipse(195, 140, 40, 40);
+	ellipse(245, 140, 40, 40);
+	fill(255, 255, 255);
+	ellipse(195, 140, 30, 30);
+	ellipse(245, 140, 30, 30);
+	fill(0, 0, 0);
+	ellipse(200, 135, 10, 10);
+	ellipse(250, 135, 10, 10);
+	rect(210, 135, 17, 5);
+	// noLoop
+}
 
 
 }
