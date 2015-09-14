@@ -155,23 +155,16 @@ function draw() {
 	rect(0, 0, 40, 50);
 	push();
 
-
-
-
-
-
-
-
 } else {
 		// balloon
 		var y = random(-5, 5);
-	fill(87, 185, 181);
+	fill(random(255), random(255), random(255));
 	ellipse(365 + y, 175, 60, 60);
 	triangle(367, 205, 372, 215, 362, 215);
-	fill(236, 111, 197);
+	fill(random(255), random(255), random(255));
 	ellipse(450 + y, 155, 50, 50);
 	triangle(450, 180, 445, 190, 455, 190);
-	fill(253, 197, 30);
+	fill(random(255), random(255), random(255));
 	ellipse(410 + y, 90, 55, 55);
 	triangle(410, 113, 407, 123, 413, 123);
 
@@ -207,7 +200,5 @@ function draw() {
 	push();
 
 }
-
-
 
 }
