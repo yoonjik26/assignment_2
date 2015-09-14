@@ -2,7 +2,7 @@ function setup() {
 	// create a place to draw
 	createCanvas(640, 360);
 	noStroke();
-	// noLoop();
+	noLoop();
 }
 
 function draw() {
@@ -172,8 +172,25 @@ function draw() {
 	ellipse(200, 135, 10, 10);
 	ellipse(250, 135, 10, 10);
 	rect(210, 135, 17, 5);
-	// noLoop
+
+	// dove
+	var doveX = random(400, 640);
+	fill(255, 255, 255);
+	ellipse(doveX, 100, 30, 30);
+	fill(0, 0, 0);
+	ellipse(doveX - 8, 96, 7, 7);
+	fill(255, 255, 255);
+	triangle(doveX, 100, doveX + 30, 120, doveX + 65, 60);
+	triangle(doveX + 37, 100, doveX + 50, 130, doveX + 70, 60);
+	triangle(doveX + 35, 120, doveX + 55, 150, doveX + 65, 130);
+	pop();
+	translate(doveX + 30, 110);
+	rotate(radians(45));
+	ellipse(0, 0, 50, 30);
+	push();
+
 }
+
 
 
 }
