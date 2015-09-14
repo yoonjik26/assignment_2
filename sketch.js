@@ -2,7 +2,7 @@ function setup() {
 	// create a place to draw
 	createCanvas(640, 360);
 	noStroke();
-	noLoop();
+	// noLoop();
 }
 
 function draw() {
@@ -57,7 +57,7 @@ function draw() {
 	rect(0, 0, 10, 20, 5, 5, 0, 0);
 	pop();
 	push();
-	translate(144, 300);
+	translate(144.5, 300);
 	rotate(radians(-15));
 	rect(0, 0, 10, 20, 0, 0, 5, 5);
 	pop();
@@ -108,6 +108,7 @@ function draw() {
 
 	fill(random(255), random(255), random(255));
 	ellipse(400, 233, 80, 20);
+	// noLoop
 
 
 	if (magicShow < 0.5) {
