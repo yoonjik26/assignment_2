@@ -144,6 +144,23 @@ function draw() {
 	fill(209, 95, 111);
 	ellipse(220, 172, 20, 20);
 
+	// card
+	fill(random(255), random(255), random(255));
+	var cardX = random(400, 500);
+	rect(cardX + 40, 100, 40, 50);
+	pop();
+	fill(random(255), random(255), random(255));
+	translate(cardX + 60, 200);
+	rotate(radians(45));
+	rect(0, 0, 40, 50);
+	push();
+
+
+
+
+
+
+
 
 } else {
 		// balloon
