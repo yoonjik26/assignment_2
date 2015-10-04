@@ -106,7 +106,7 @@ if (magicShow < 0.2 && magicShow > 0) {
 	// inside of the hat
 	fill(random(255), random(255), random(255));
 	ellipse(400, 233, 80, 20);
-		// rabbit
+	// rabbit
 	fill(251, 196, 221);
 	ellipse(400, 210, 60, 60);
 	ellipse(370, 235, 23, 23);
@@ -161,8 +161,8 @@ if (magicShow > 0.2 && magicShow < 0.4) {
 	// inside of the hat
 	fill(random(255), random(255), random(255));
 	ellipse(400, 233, 80, 20);
-		// balloon
-		var y = random(-5, 5);
+	// balloon
+	var y = random(-5, 5);
 	fill(random(255), random(255), random(255));
 	ellipse(365 + y, 175, 60, 60);
 	triangle(367, 205, 372, 215, 362, 215);
